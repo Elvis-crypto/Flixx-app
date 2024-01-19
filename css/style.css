@@ -180,6 +180,7 @@ ul {
 section.now-playing {
   padding: 60px;
   background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
+  background-repeat: repeat no-repeat;
 }
 
 section h2 {
@@ -246,6 +247,16 @@ section h2 {
   padding-bottom: 8px;
   border-bottom: 1px solid #fff;
   border-color: rgba(255, 255, 255, 0.1);
+}
+
+.production-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Search */
